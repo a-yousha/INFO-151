@@ -33,6 +33,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
+  background-color: var(--purple);
   margin: 0;
 }
 
@@ -80,7 +81,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: var(--purple);
+  background-color: transparent;
 }
 
 /**
