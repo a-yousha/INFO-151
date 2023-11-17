@@ -33,7 +33,6 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  background-color: var(--purple);
   margin: 0;
 }
 
