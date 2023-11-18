@@ -388,11 +388,25 @@ textarea {
 /* =============
     Header
 ============= */
-header nav ul #freeTrial a {
-  background-color: var(--lightBlue);
-  color: var(--white);
-}
+/*header{
 
+    nav{
+        ul{
+            li{
+                a{
+
+                }
+            }
+
+            #freeTrial{
+                a{
+                    background-color: var(--lightBlue);
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}*/
 /* =============
     Footer
 ============= */
