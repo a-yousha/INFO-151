@@ -391,6 +391,7 @@ textarea {
 header nav ul #freeTrial a {
   background-color: var(--lightBlue);
   color: var(--white);
+  padding: 15x 30px;
 }
 
 /* =============
