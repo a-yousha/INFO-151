@@ -391,7 +391,8 @@ textarea {
 header nav ul #freeTrial a {
   background-color: var(--lightBlue);
   color: var(--white);
-  padding: 15x 30px;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
 /* =============
@@ -400,3 +401,6 @@ header nav ul #freeTrial a {
 /*=============
 Hero
 ==============*/
+#hero {
+  margin-top: 111px;
+}
