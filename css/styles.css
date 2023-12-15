@@ -365,11 +365,6 @@ button {
   border-radius: 5px;
 }
 
-.plan_btn {
-  padding: 480px 360px;
-  border-radius: 10px;
-}
-
 /* =============
     Forms
 ============= */
@@ -400,8 +395,8 @@ textarea {
     Footer
 ============= */
 /* =============
-    How
+    Plans
 ============= */
-#how ul li {
+#plans ul #planBox {
   border: 5px solid var(--black);
 }
