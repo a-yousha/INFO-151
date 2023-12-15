@@ -354,6 +354,17 @@ ul {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+}
+
+.blue-btn {
+  background-color: var(--lightBlue);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
 /* =============
     Forms
 ============= */
@@ -382,4 +393,7 @@ textarea {
 ============= */
 /* =============
     Footer
+============= */
+/* =============
+    How
 ============= */
