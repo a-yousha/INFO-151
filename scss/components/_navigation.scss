@@ -8,13 +8,12 @@ a{
 
 nav{
     ul{
-        color: white;
         display:flex;
         justify-content:flex-end;
         li{
             list-style: none;
             a:link, a:visited{
-            
+                color: var(--white);
             }
 
             a:hover, a:active{

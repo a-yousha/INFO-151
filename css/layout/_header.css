@@ -1,6 +1,11 @@
 /* =============
     Header
 ============= */
+header {
+  padding: 59px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
 header nav ul #freeTrial a {
   background-color: var(--lightBlue);
   color: var(--white);

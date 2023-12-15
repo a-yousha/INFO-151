@@ -6,7 +6,6 @@ a {
 }
 
 nav ul {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +15,9 @@ nav ul {
 }
 nav ul li {
   list-style: none;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: var(--white);
 }
 nav ul .selected {
   color: var(--lightBlue);
