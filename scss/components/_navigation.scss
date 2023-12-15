@@ -6,7 +6,7 @@ nav{
     ul{
         li{
             a:link, a:visited{
-
+                color: var(--black);
             }
 
             a:hover, a:active{
@@ -15,7 +15,7 @@ nav{
         }
 
         .selected{
-            color: var(--lightBlue)
+            color: var(--lightBlue);
         }
     }
 }
