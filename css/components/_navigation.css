@@ -1,0 +1,18 @@
+/* =============
+    Navigation
+============= */
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul .selected {
+  color: var(--lightBlue);
+}
