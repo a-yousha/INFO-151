@@ -383,7 +383,7 @@ textarea {
 /* =============
     Footer 
 ============= */
-footer {
+footer section ul {
   background-color: black;
   color: white;
 }
