@@ -381,7 +381,7 @@ textarea {
 /* =============
     Footer
 ============= */
-footer {
+footer section {
   background-color: var(--black);
   color: var(--white);
 }
