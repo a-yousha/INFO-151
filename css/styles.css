@@ -15,6 +15,7 @@ html {
   --white: #ffffff;
   --purple: #6627be;
   --lightBlue: #42b5ee;
+  --darkBlue: #185776;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -371,6 +372,13 @@ button {
   color: var(--white);
   padding: 15px 30px;
   border-radius: 5px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.blue-btn:hover {
+  background-color: var(--darkBlue);
+  color: var(--white);
 }
 
 /* =============
@@ -410,6 +418,7 @@ nav ul {
 }
 nav ul li {
   list-style: none;
+  margin-left: 45px;
 }
 nav ul li a:link, nav ul li a:visited {
   color: var(--white);
