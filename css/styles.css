@@ -383,7 +383,13 @@ textarea {
 /* =============
     Footer 
 ============= */
+<<<<<<< Updated upstream
 footer section ul {
   background-color: black;
   color: white;
+=======
+footer {
+  color: var(--white);
+  background-color: var(--black);
+>>>>>>> Stashed changes
 }
