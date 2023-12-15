@@ -365,6 +365,11 @@ button {
   border-radius: 5px;
 }
 
+.plan_btn {
+  padding: 480px 360px;
+  border-radius: 10px;
+}
+
 /* =============
     Forms
 ============= */
@@ -397,3 +402,8 @@ textarea {
 /* =============
     How
 ============= */
+#how ul li {
+  padding: 480px 360px;
+  border: 1px solid var(--black);
+  border-radius: 10px;
+}
