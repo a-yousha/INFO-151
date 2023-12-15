@@ -6,13 +6,21 @@ a {
 }
 
 nav ul {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 nav ul li {
   list-style: none;
 }
 nav ul .selected {
   color: var(--lightBlue);
+}
+
+#hero section h1 {
+  font-size: rem-calc(62);
 }
