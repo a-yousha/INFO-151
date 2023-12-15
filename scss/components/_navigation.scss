@@ -1,3 +1,21 @@
 /* =============
     Navigation
 ============= */
+
+nav{
+    ul{
+        li{
+            a:link, a:visited{
+
+            }
+
+            a:hover, a:active{
+
+            }
+        }
+
+        .selected{
+            color: var(--lightBlue)
+        }
+    }
+}
