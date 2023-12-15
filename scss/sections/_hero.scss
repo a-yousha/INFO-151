@@ -4,4 +4,38 @@ Hero
 
 #hero{
     margin-top: 111px;
+
+        section{
+
+            h1{
+                font-size: rem-calc(62);
+                color: var(--white);
+            }
+
+            #hero-title-container-one{
+                margin-left: 145px;
+            }
+
+            #hero-title-container-two{
+                margin-left: 145px;
+            }
+
+            #hero-title-container-three{
+                margin-left: 145px;
+                display: flex;
+            }
+
+            p{
+                color: var(--white);
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 145px;
+            }
+        }
+
+        ul{
+            li{
+                font-size: rem-calc(18);
+            }
+        }
 }

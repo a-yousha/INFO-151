@@ -19,6 +19,21 @@ nav ul li {
 }
 nav ul li a:link, nav ul li a:visited {
   color: var(--white);
+  font-size: rem-calc(16);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+nav ul li a:hover, nav ul li a:active {
+  color: var(--lightBlue);
+}
+nav ul li a.blue-link {
+  color: var(--darkBlue);
+}
+nav ul li a.blue-link:hover {
+  color: var(--lightBlue);
+}
+nav ul li a.selected {
+  color: var(--lightBlue);
 }
 nav ul .selected {
   color: var(--lightBlue);

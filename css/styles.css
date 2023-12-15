@@ -367,7 +367,7 @@ button {
   border: none;
 }
 
-.blue-btn {
+.blue-btn-trial {
   background-color: var(--lightBlue);
   color: var(--white);
   padding: 15px 30px;
@@ -376,7 +376,22 @@ button {
   transition: 0.25s;
 }
 
-.blue-btn:hover {
+.blue-btn-trial:hover {
+  background-color: var(--darkBlue);
+  color: var(--white);
+}
+
+.blue-btn-demo {
+  margin-left: 145px;
+  background-color: var(--lightBlue);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 5px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.blue-btn-demo:hover {
   background-color: var(--darkBlue);
   color: var(--white);
 }
@@ -422,6 +437,21 @@ nav ul li {
 }
 nav ul li a:link, nav ul li a:visited {
   color: var(--white);
+  font-size: 1rem;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+nav ul li a:hover, nav ul li a:active {
+  color: var(--lightBlue);
+}
+nav ul li a.blue-link {
+  color: var(--darkBlue);
+}
+nav ul li a.blue-link:hover {
+  color: var(--lightBlue);
+}
+nav ul li a.selected {
+  color: var(--lightBlue);
 }
 nav ul .selected {
   color: var(--lightBlue);
@@ -454,4 +484,29 @@ Hero
 ==============*/
 #hero {
   margin-top: 111px;
+}
+#hero section h1 {
+  font-size: 3.875rem;
+  color: var(--white);
+}
+#hero section #hero-title-container-one {
+  margin-left: 145px;
+}
+#hero section #hero-title-container-two {
+  margin-left: 145px;
+}
+#hero section #hero-title-container-three {
+  margin-left: 145px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#hero section p {
+  color: var(--white);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 145px;
+}
+#hero ul li {
+  font-size: 1.125rem;
 }

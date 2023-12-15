@@ -10,16 +10,32 @@ nav{
     ul{
         display:flex;
         justify-content:flex-end;
+
         li{
             list-style: none;
             margin-left: 45px;
             a:link, a:visited{
                 color: var(--white);
+                font-size: rem-calc(16);
+                transition: 0.25s;
             }
 
             a:hover, a:active{
-
+                color: var(--lightBlue);
             }
+
+            a.blue-link{
+                color: var(--darkBlue);
+            }
+
+            a.blue-link:hover{
+                color: var(--lightBlue);
+            }
+
+            a.selected{
+                color: var(--lightBlue);
+            }
+
         }
 
         .selected{
