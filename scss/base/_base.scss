@@ -1,5 +1,14 @@
 /* =============
     Base
 ============= */
-
+body{
+    main{
+        display:grid;
+        grid-template-columns: auto 1140px auto;
+        grid-template-areas: ". main-content .";
+        #main-grid-item{
+            grid-area: main-content;
+        }
+    }
+}
 
