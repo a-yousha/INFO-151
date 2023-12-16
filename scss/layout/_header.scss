@@ -17,6 +17,8 @@ header{
         grid-template-columns: 25% 25% auto;
         grid-template-areas:
         "logo nav";
+
+        padding: 28px 52px;
     }
 
     #logo-container{
@@ -24,7 +26,9 @@ header{
     }
 
     #burger-container{
-
+        @include xl{
+            display: none;
+        }
     }
 
     nav{
