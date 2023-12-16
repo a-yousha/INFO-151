@@ -1,1 +1,1 @@
-button{border:none}.blue-btn{background-color:var(--lightBlue);color:var(--white);padding:15px 30px;border-radius:5px}
+button{border:none}.blue-btn{background-color:var(--lightBlue);color:var(--white);padding:15px 30px;border-radius:5px;-webkit-transition:0.25s;transition:0.25s}.blue-btn .blue-btn:hover{background-color:var(--darkBlue);color:var(--white)}
