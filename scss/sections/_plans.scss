@@ -2,21 +2,32 @@
     Plans
 ============= */ 
 #plans{
+    text-align: center;
+        h1{
+            color: var(--black);
+        }
+
+        p{
+            color: var(--black);
+        }
+    }
 
     div{
         h1{
-            font-size: 30px;
+            font-size: 40px;
+            color: var(--white);
         }
     }
 
     ul{
         #planBox{
+            display: flex;
             padding: 480px 360px
             border: 1px solid var(--black);
             border-radius: 10px;
 
             display: inline-box;
+            
         }
     }
 
-}
