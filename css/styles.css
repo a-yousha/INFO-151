@@ -337,6 +337,18 @@ template {
 body {
   background-color: var(--purple);
 }
+body main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1140px auto;
+  grid-template-columns: auto 1140px auto;
+      grid-template-areas: ". main-grid-item .";
+}
+body main #main-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: main-grid-item;
+}
 
 /* =============
     Typography
@@ -468,6 +480,13 @@ header {
   padding: 59px;
   border-radius: 5px;
   margin-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% auto;
+  grid-template-columns: 30% auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header nav ul #freeTrial a {
   background-color: var(--lightBlue);
@@ -484,6 +503,10 @@ Hero
 ==============*/
 #hero {
   margin-top: 111px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 49% auto;
+  grid-template-columns: 49% auto;
 }
 #hero section h1 {
   font-size: 3.875rem;

@@ -1,1 +1,1 @@
-header{padding:59px;border-radius:5px;margin-top:40px}header nav ul #freeTrial a{background-color:var(--lightBlue);color:var(--white);padding:15px 30px;border-radius:5px}
+header{padding:59px;border-radius:5px;margin-top:40px;display:-ms-grid;display:grid;-ms-grid-columns:30% auto;grid-template-columns:30% auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center}header nav ul #freeTrial a{background-color:var(--lightBlue);color:var(--white);padding:15px 30px;border-radius:5px}

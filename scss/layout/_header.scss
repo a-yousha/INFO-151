@@ -7,6 +7,14 @@ header{
     border-radius: 5px;
     margin-top: 40px;
 
+    display:grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+
+    #logo-container{
+
+    }
+
     nav{
         ul{
             li{

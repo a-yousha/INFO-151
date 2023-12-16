@@ -4,6 +4,8 @@ Hero
 
 #hero{
     margin-top: 111px;
+    display: grid;
+    grid-template-columns: 49% auto;
 
         section{
 
