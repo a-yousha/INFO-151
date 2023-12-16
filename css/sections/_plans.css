@@ -1,19 +1,29 @@
 /* =============
     Plans
 ============= */
+#plans {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 #plans #plans-intro {
   text-align: center;
   margin: 108px 0 70px;
 }
 #plans #plans-intro h1 {
   color: var(--black);
+  font-size: 57px;
 }
-#plans p {
+#plans #plans-intro p {
   color: black;
+  font-size: 33px;
+}
+#plans ul #planBox ul li {
+  list-style: none;
 }
 #plans ul li {
   display: inline-block;
-  padding: 480px 360px;
+  padding: 30px;
   border-radius: 10px;
   border: 1px solid var(--black);
 }
