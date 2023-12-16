@@ -3,6 +3,16 @@
 ============= */ 
 #plans{
 
+    text-align: center;
+
+    h3{
+        font-size: 33px;
+    }
+    
+    h2{
+        font-size: 57px;
+    }
+
     #plans-intro{
         text-align: center; 
 
@@ -20,27 +30,9 @@
         }
     }
 
-
     ul{
-        #planBox{
-
-            display: flex;
-
-            h3{
-                font-size: 33px;
-            }
-            
-            h2{
-                font-size: 57px;
-            }
-
-            ul{
-                li{
-                    font-size: 26px;
-                }
-            }
-
-        }
-
+        display: flex;
+        list-style: none;
     }
+
 }

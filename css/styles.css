@@ -405,6 +405,15 @@ textarea {
 /* =============
     Plans
 ============= */
+#plans {
+  text-align: center;
+}
+#plans h3 {
+  font-size: 33px;
+}
+#plans h2 {
+  font-size: 57px;
+}
 #plans #plans-intro {
   text-align: center;
 }
@@ -419,17 +428,9 @@ textarea {
   color: black;
   font-size: 33px;
 }
-#plans ul #planBox {
+#plans ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-#plans ul #planBox h3 {
-  font-size: 33px;
-}
-#plans ul #planBox h2 {
-  font-size: 57px;
-}
-#plans ul #planBox ul li {
-  font-size: 26px;
+  list-style: none;
 }
