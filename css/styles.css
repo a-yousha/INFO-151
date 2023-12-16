@@ -460,6 +460,13 @@ header {
     grid-template-columns: 50% auto 5%;
   }
 }
+@media (min-width: 1200px) {
+  header {
+    -ms-grid-columns: 25% 25% auto;
+    grid-template-columns: 25% 25% auto;
+        grid-template-areas: "logo nav";
+  }
+}
 /* =============
     Footer
 ============= */

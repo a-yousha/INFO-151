@@ -13,6 +13,12 @@ header{
         grid-template-columns: 50% auto 5%;
     }
 
+    @include xl{
+        grid-template-columns: 25% 25% auto;
+        grid-template-areas:
+        "logo nav";
+    }
+
     #logo-container{
 
     }
