@@ -13,7 +13,8 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
-  --purple: #6627be;
+  --purple: #5319A6;
+  --lighterBlue: #9DD7F4;
   --lightBlue: #42b5ee;
   --darkBlue: #10374a;
 }
@@ -418,11 +419,17 @@ textarea {
   color: black;
   font-size: 33px;
 }
-#plans ul #planBox ul li {
-  list-style: none;
+#plans ul #planBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-#plans ul li {
-  padding: 48px 36px;
-  border-radius: 10px;
-  border: 1px solid var(--black);
+#plans ul #planBox h3 {
+  font-size: 33px;
+}
+#plans ul #planBox h2 {
+  font-size: 57px;
+}
+#plans ul #planBox ul li {
+  font-size: 26px;
 }

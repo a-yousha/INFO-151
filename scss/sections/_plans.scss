@@ -23,19 +23,24 @@
 
     ul{
         #planBox{
+
+            display: flex;
+
+            h3{
+                font-size: 33px;
+            }
+            
+            h2{
+                font-size: 57px;
+            }
+
             ul{
                 li{
-                    list-style: none;
+                    font-size: 26px;
                 }
             }
-        }
 
-    li{
-            padding: 48px 36px;
-            border-radius: 10px;
-            border: 1px solid var(--black);
         }
 
     }
-
 }
