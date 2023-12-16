@@ -2,20 +2,30 @@
     Plans
 ============= */ 
 #plans{
-    text-align: center;
+
     #plans-intro{
         text-align: center;
+        margin: 108px 0 70px;
+    
+
+        h1{
+            color:var(--black);
+        }
+    }
+
+    p{
+        color: black;
     }
 
     ul{
-        #planBox{
-            display: flex;
-            padding: 480px 360px
-            border: 1px solid var(--black);
-            border-radius: 10px;
+        li{
+            display: inline-block;
 
-            display: inline-box;
+            padding: 480px 360px;
+            border-radius: 10px;
+            border: 1px solid var(--black);
         }
+
     }
 
 }
