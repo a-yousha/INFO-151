@@ -454,6 +454,12 @@ header {
       grid-template-areas: "logo burger";
       grid-template-areas: "nav nav";
 }
+@media (min-width: 768px) {
+  header {
+    -ms-grid-columns: 50% auto 5%;
+    grid-template-columns: 50% auto 5%;
+  }
+}
 /* =============
     Footer
 ============= */

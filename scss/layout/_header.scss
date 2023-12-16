@@ -9,6 +9,10 @@ header{
     grid-template-areas: "logo burger";
     grid-template-areas: "nav nav";
 
+    @include md{
+        grid-template-columns: 50% auto 5%;
+    }
+
     #logo-container{
 
     }
