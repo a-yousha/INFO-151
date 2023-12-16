@@ -1,3 +1,35 @@
 /* =============
     Buttons
 ============= */
+button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+    .blue-btn{
+        padding: 16px 24pxbackground-color: var(--blue);
+        transition: 0.25s;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .blue-btn:hover{
+        background-color: white;
+        color: var(--blue);
+    }
+
+    .white-btn{
+        border: 1px solid var(--blue);
+        padding: 16px 24px;
+        background-color: var(--white);
+        transition: 0.25s;
+        color: var(--blue);
+        border-radius: 8px;
+    }
+
+    .blue-btn:hover{
+        background-color: white;
+        color: var(--blue);
+    }
+    
+}

@@ -13,6 +13,8 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --blue: #0e3c67;
+  --gray: #919191;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -384,7 +386,7 @@ textarea {
 /* ========
     Sign Up
 =========*/
-#signUp {
+#sign-Up {
   background-color: var(--blue);
   height: 50vh;
   display: -webkit-box;
@@ -396,4 +398,12 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 16px;
+}
+#sign-Up form input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 60px;
+  margin-bottom: 24px;
 }

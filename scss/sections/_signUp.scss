@@ -2,14 +2,38 @@
     Sign Up
 =========*/
 
-#signUp{
-    background-color:var(--blue);
+#sign-Up{
+    //background-color:var(--blue);
+    background-color:024A5890;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+
+    #close-btn{
+        
+    }
     
     form{
+        input{
+            width: 100%;
+            box-sizing: border-box;
+            height: 60px;
+            margin-bottom: 24px;
+        }
+
+    #sign-up-container{
+        display:flex;
+        justify-content: flex-end;
+        button{
+            background-color: var(--blue);
+            color: var(--white);
+        }
+    }
 
     }
 }
