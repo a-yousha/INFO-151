@@ -2,13 +2,14 @@
     Plans
 ============= */ 
 #plans{
-    
+    text-align: center;
     #plans-intro{
         text-align: center;
     }
 
     ul{
         #planBox{
+            display: flex;
             padding: 480px 360px
             border: 1px solid var(--black);
             border-radius: 10px;
