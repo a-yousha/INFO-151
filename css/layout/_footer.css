@@ -1,11 +1,11 @@
 /* =============
     Footer 
 ============= */
-footer {
+#footer {
   color: var(--white);
   background-color: var(--black);
 }
-footer section ul {
+#footer section ul {
   background-color: black;
   color: white;
 }
