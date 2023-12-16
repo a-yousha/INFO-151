@@ -384,10 +384,6 @@ textarea {
     Footer 
 ============= */
 #footer {
-  color: var(--white);
   background-color: var(--black);
-}
-#footer section ul {
-  background-color: black;
-  color: white;
+  color: var(--white);
 }
